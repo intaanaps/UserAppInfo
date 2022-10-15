@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Kage Info</string>
+    <string name="japan_nama">Nama Jepang</string>
+    <string name="nama_kage">Nama Kage</string>
+    <string name="todo">TODO</string>
+    <string name="tingkatan_Kage">Tingkatan Kage</string>
+    <string name="asal_Kage">Asal Kage</string>
+
+    <string-array name="data_namaKage">
+        <item>Hashirama Senju</item>
+        <item>Ishikawa</item>
+        <item>Chōjūrō</item>
+        <item>Shamon</item>
+        <item>A</item>
+        <item>Tobirama Senju</item>
+        <item>Darui</item>
+        <item>Minato Namikaze</item>
+        <item>Gaara</item>
+        <item>Tsunade</item>
+    </string-array>
+    <string-array name="data_japanKage">
+        <item>千手柱間</item>
+        <item>イシカワ</item>
+        <item>長十郎</item>
+        <item>沙門</item>
+        <item>エー</item>
+        <item>千手扉间</item>
+        <item>無</item>
+        <item>ダルイ</item>
+        <item>波風ミナト</item>
+        <item>我愛羅</item>
+        <item>綱手</item>
+    </string-array>
+    <string-array name="data_tingkatanKage">
+        <item>Hokage Pertama (初代火影, Shodai Hokage)</item>
+        <item>Tsuchikage Pertama (初代土影, Shodai Tsuchikage)</item>
+        <item>Mizukage Keenam (六代目水影, Rokudaime Mizukage)</item>
+        <item>Kazekage Kedua (二代目風影, Nidaime Kazekage)</item>
+        <item>Raikage Ketiga (三代目雷影, Sandaime Raikage</item>
+        <item>Hokage Kedua (二代目火影, Nidaime Hokage)</item>
+        <item>Tsuchikage Kedua (二代目土影, Nidaime Tsuchikage)</item>
+        <item>Raikage Kelima (五代目雷影, Godaime Raikage)</item>
+        <item>Hokage Keempat (四代目火影, Yondaime Hokage)</item>
+        <item>Kazekage Kelima (五代目風影, Godaime Kazekage)</item>
+        <item>Hokage Kelima (五代目火影, Godaime Hokage)</item>
+    </string-array>
+    <integer-array name="data_fotoKage">
+        <item>@drawable/hashirama</item>
+        <item>@drawable/ishikawa</item>
+        <item>@drawable/chojuro</item>
+        <item>@drawable/shamon</item>
+        <item>@drawable/a</item>
+        <item>@drawable/tobirama</item>
+        <item>@drawable/darui</item>
+        <item>@drawable/minato</item>
+        <item>@drawable/gaara</item>
+        <item>@drawable/tsunade</item>
+    </integer-array>
+</resources>
