@@ -9,6 +9,7 @@ public class Kage implements Parcelable {
     private String tingkatanKage;
     private Integer fotoKage;
 
+
     protected Kage(Parcel in) {
         namaKage = in.readString();
         japanKage = in.readString();
@@ -36,6 +37,7 @@ public class Kage implements Parcelable {
 
     }
 
+
     public String getNamaKage() {
         return namaKage;
     }
@@ -59,6 +61,7 @@ public class Kage implements Parcelable {
     public void setTingkatanKage(String tingkatanKage) {
         this.tingkatanKage = tingkatanKage;
     }
+
 
     public Integer getFotoKage() {
         return fotoKage;

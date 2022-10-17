@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.os.Bundle;
@@ -14,7 +15,6 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     private RecyclerView rvKage;
     private ArrayList<Kage> list = new ArrayList<>();
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             rvKage.setLayoutManager(new LinearLayoutManager(this));
         }
+
     }
 
     public ArrayList<Kage> getListKage(){
@@ -58,5 +59,14 @@ public class MainActivity extends AppCompatActivity {
         rvKage.setLayoutManager(new LinearLayoutManager(this));
         RecyclerViewAdapter RecyclerViewAdapter = new RecyclerViewAdapter(list);
         rvKage.setAdapter(RecyclerViewAdapter);
-         }
+
+        RecyclerViewAdapter.setOnItemClickCallback(new RecyclerViewAdapter.OnItemClickCallback() {
+            @Override
+            public void onItemClicked(Kage kage) {
+                Intent moveIntent = new Intent( MainActivity.this, DetailActivity.class);
+                moveIntent.putExtra(DetailActivity.ITEM_EXTRA, kage);
+                startActivity(moveIntent);
+            }
+        });
+    }
 }

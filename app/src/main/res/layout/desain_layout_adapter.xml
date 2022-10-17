@@ -13,10 +13,10 @@
     card_view:cardCornerRadius="4dp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/constraintLayout"
+        android:id="@+id/constraint_Layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#F4CFBC"
+        android:background="#F8F3F0"
         android:padding="8dp">
 
         <de.hdodenhof.circleimageview.CircleImageView

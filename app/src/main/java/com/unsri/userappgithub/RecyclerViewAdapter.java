@@ -1,10 +1,12 @@
 package com.unsri.userappgithub;
 
-import android.content.Context;
+
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -17,10 +19,15 @@ import java.util.ArrayList;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ListViewHolder> {
-    private ArrayList<Kage> listKage;
-
+    private final ArrayList<Kage> listKage;
     public RecyclerViewAdapter(ArrayList<Kage> list){
         this.listKage = list;
+    }
+
+    private OnItemClickCallback onItemClickCallback;
+
+    public void setOnItemClickCallback(OnItemClickCallback onItemClickCallback){
+        this.onItemClickCallback = onItemClickCallback;
     }
 
     @NonNull
@@ -31,12 +38,14 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ListViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull final ListViewHolder holder, int position) {
         Kage kage = listKage.get(position);
         holder.imgPhoto.setImageResource(kage.getFotoKage());
         holder.kageNama.setText(kage.getNamaKage());
         holder.kageJapan.setText(kage.getJapanKage());
         holder.kageTingkatan.setText(kage.getTingkatanKage());
+
+        holder.itemView.setOnClickListener(v -> onItemClickCallback.onItemClicked(listKage.get(holder.getAdapterPosition())));
     }
 
     @Override
@@ -56,5 +65,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
             kageJapan = itemView.findViewById(R.id.view_japan_nama);
             kageTingkatan = itemView.findViewById(R.id.view_tingkatan_kage);
         }
+    }
+
+    public interface OnItemClickCallback {
+        void onItemClicked(Kage kage);
     }
 }

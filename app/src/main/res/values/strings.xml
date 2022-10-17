@@ -4,56 +4,75 @@
     <string name="nama_kage">Nama Kage</string>
     <string name="todo">TODO</string>
     <string name="tingkatan_Kage">Tingkatan Kage</string>
-    <string name="asal_Kage">Asal Kage</string>
+    <string name ="detail_tingkatan">Detail Tingkatan</string>
 
     <string-array name="data_namaKage">
         <item>Hashirama Senju</item>
+        <item>Tobirama Senju</item>
+        <item>Gengestu Hozuki</item>
+        <item>Mu</item>
+        <item>A</item>
+        <item>Rasa</item>
+        <item>Yagura</item>
+        <item>Onoki</item>
+        <item>Gaara</item>
         <item>Ishikawa</item>
         <item>Chōjūrō</item>
         <item>Shamon</item>
-        <item>A</item>
-        <item>Tobirama Senju</item>
         <item>Darui</item>
         <item>Minato Namikaze</item>
-        <item>Gaara</item>
         <item>Tsunade</item>
     </string-array>
     <string-array name="data_japanKage">
         <item>千手柱間</item>
+        <item>千手扉间</item>
+        <item>鬼灯幻月</item>
+        <item>無</item>
+        <item>エー</item>
+        <item>羅砂</item>
+        <item>やぐら</item>
+        <item>オオノキ</item>
+        <item>我愛羅</item>
         <item>イシカワ</item>
         <item>長十郎</item>
         <item>沙門</item>
-        <item>エー</item>
-        <item>千手扉间</item>
         <item>無</item>
         <item>ダルイ</item>
         <item>波風ミナト</item>
-        <item>我愛羅</item>
         <item>綱手</item>
     </string-array>
     <string-array name="data_tingkatanKage">
-        <item>Hokage Pertama (初代火影, Shodai Hokage)</item>
-        <item>Tsuchikage Pertama (初代土影, Shodai Tsuchikage)</item>
-        <item>Mizukage Keenam (六代目水影, Rokudaime Mizukage)</item>
-        <item>Kazekage Kedua (二代目風影, Nidaime Kazekage)</item>
-        <item>Raikage Ketiga (三代目雷影, Sandaime Raikage</item>
-        <item>Hokage Kedua (二代目火影, Nidaime Hokage)</item>
-        <item>Tsuchikage Kedua (二代目土影, Nidaime Tsuchikage)</item>
-        <item>Raikage Kelima (五代目雷影, Godaime Raikage)</item>
-        <item>Hokage Keempat (四代目火影, Yondaime Hokage)</item>
-        <item>Kazekage Kelima (五代目風影, Godaime Kazekage)</item>
-        <item>Hokage Kelima (五代目火影, Godaime Hokage)</item>
+        <item>Hokage Pertama (初代火影, Shodai Hokage). Hashirama Senju Merupakan Hokage pertama dan juga merupakan pendiri desa Konohagakure. Memilki seorang adik yang bertama Tobirama Senju, Itama Senju dan Kawarama Senju. Hashirama Senju Memilki istri yang bernama Uzumaki Mito, dan memilki seorang cucu yang bernama Tsunade Senju. Hashirama Senju memilki kemampuan mokuton yaitu gabungan dari chakra air dan tanah. Sampai saat ini masih belum ada yang tahu penyebab kematian Hashirama Senju. Namun ada yang mengatakan itu dikarenakan wujud Sage Mode dan menggunakan chakra langsung dari alam membuat usia seorang manusia berkurang drastis.</item>
+        <item>Hokage Kedua (二代目火影, Nidaime Hokage). Tobirama Senju Merupakan Hokage kedua dan juga merupakan adik dari Hashirama Senju. Memilki seorang murid bernama Hiruzen Sarutobi, Danzo Shimura, Homura Mitokado, Koharu Utatane. Tobirama memiliki kemampuan Suiton yang sangat kuat. Suiton merupakan chakra air. Penyebab Tobirama senju mati ialah dikarenakan pasukannya terkebung dan akhirnya Tobirama senju bertarung dengan kinkaku dan ginkaku bersaudara. Demi menyalamatkan pasukanya, Tobirama Senju menjadi umpan agar para ninja Konoha bisa kabur dengan selamat.</item>
+        <item>Mizukage Kedua (二代目水影, Nidaime Mizukage). Semasa hidupnya Gengetsu Hozuki bermusuhan dengan Tsuchikage kedua Mu, yang pada akhirnya mereka saling membunuh dan mati bersama. Gengestu mahir dalam menggunakan genjustu,Gengestu Hozuki sering menggunakan Teknik Pemanggilan Kerang raksasa yang bernama “Ohamaguri”. Dan juga Gengetsu Hozuki menguasai teknik elemen api, petir, tanah, dan yang.</item>
+        <item>Tsuchikage Kedua (二代目土影, Nidaime Tsuchikage). Semasa hidupnya Mu bermusuhan dengan Mizukage kedua Gengetsu Hozuki, yang pada akhirnya mereka saling membunuh dan mati bersama. Mu adalah Ninja pertama yang menguasai Teknik Jinton atau teknik elemen debu, yang merupakan gabungan antara elemen tanah, angin dan api. Lalu ia mewarisi teknik tersebut kepada muridnya yaitu Onoki, yang mana Onoki merupakan seorang Tsuchikage ketiga.</item>
+        <item>Raikage Ketiga (三代目雷影, Sandaime Raikage). A sendiri mendapat julukan Raikage terkuat sepanjang masa, dikarenakan ia memiliki tingkat yang luar biasa dari daya tahan dan kekuatan di atas segalanya, ke titik dimana tubuhnya sendiri akan menjadi terkenal sebagai “perisai terkuat”. A memiliki seorang anak yang diberi nama A dan menjabat sebagai Raikage keempat. A memiliki teknik rahasia, yaitu teknik rahasia petir hitam. A juga pernah melawan sepuluh ribu shinobi sendirian yang memakan waktu bertarung selama 3 hari 3 malam. Dan akhirnya meninggal.</item>
+        <item>Kazekage Keempat (四代目風影, Yondaime Kazekage). Rasa memilki  Istri yang bernama Karura, dan memilki anak yang bernama Temari, Kankuro, Gaara. Rasa terkenal akan kemampuan nya yaitu “Sakin” atau bisa dipanggil dengan pasir emas. Rasa juga menjadikan anaknya Gaara sebagai seorang jinchuriki Ichibi/ ekor 1. Rasa melakukan itu agar Gaara dapat menjadi senjata pamungkas dari desa Sunagakure. Dan juga menggantikan Jinchuriki sebelumnya yaitu Karura, yang mana merupakan istrinya sendiri. Rasa terbunuh oleh Orochimaru pada saat perjalanan ke Konoha dalam kegiatan Ujian Chunin.</item>
+        <item>Mizukage Keempat (四代目水影, Yondaime Mizukage). Yagura juga merupakan mantan Jinchuriki Sanbi/ekor 3. Pada masa jabatan nya sebagai seorang Mizukage keempat, Yagura merupakan seorang Mizukage yang kejam. Bahkan ia terkenal dengan julukan “Desa Kabut Berdarah” dimana Yagura memaksa siswa akademi untuk membunuh satu sama lain agar lulus dari akademi. Penyebab kematian nya masih belum yang mengetahui. Namun ada yang mengatakan ia mati sebelum Akatsuki mengambil biju dalam dirinya.</item>
+        <item>Tsuchikage Ketiga (三代目土影, Sandaime Tsuchikage). Onoki juga merupakan murid dari Mu yang mana ia merupakan Tsuchikage kedua. Onoki adalah orang kedua yang dapat menggunakan “Jinton” setelah Mu yang mana merupakan Tsuchikage kedua. Onoki adalah Tsuchikage tertua sepanjang masa,dikarenakan ia hidup di zaman Hashirama Senju dan masi hidup di zaman Naruto Uzumaki, bahkan sampai Boruto Uzumaki. Penyebab kematian Onoki ialah dikarenakan Onoki kehabisan chakra setelah menggunakan Jinton untuk menyelamatkan Boruto Uzumaki.</item>
+        <item>Kazekage Kelima (五代目風影, Godaime Kazekage). Gaara juga adalah anak dari Rasa yang mana merupakan Kazekage keempat. Gaara juga merupakan saudara dari Temari dan Kankuro. Gaara merupakan Jinchuriki ichibi/ekor 1. Gaara terkenal akan kemampuannya dalam mengendalikan pasir. Gaara juga sempat mengalami kematian dikarenakan Biju ekor 1 nya diambil oleh Akatsuki,namun hal itu dibantu oleh Nenek Chiyo, dimana Nenek Chiyo memberikan jutsu transfer nyawa. Dimana Nenek Chiyo Menyerahkan nyawa nya kepada Gaara. Sampai saat ini Gaara masih hidup sampai zaman Boruto Uzumaki.</item>
+        <item>Tsuchikage Pertama (初代土影, Shodai Tsuchikage). Ishikawa adalah pendiri desa Iwagakure. Ishikawa dikenal sebagai anggota dari Klan Kamizuru, yang merupakan rival dari klan Aburame. Sebagai seorang Tsuchikage Pertama, meskipun penampilannya terlihat tua, namun tentu saja tidak ada yang meragukan kekuatan dari Ishikawa</item>
+        <item>Mizukage Keenam (六代目水影, Rokudaime Mizukage). Chojuro adalah shinobi dari Kirigakure dan Tujuh Ninja Pendekar Pedang dari Kabut seorang yang menjadi Mizukage Keenam. Chojuro adalah ahli pedang dari Kiri yang sangat unik. Semua ahli pedang sungguhan dari Kiri yang diketahui pasti punya insting membunuh yang kuat. .Chojuro justru punya karakter yang sebaliknya, dia pendiam dan sempat tidak percaya diri, karena itu dia ahli pedang yang cukup unik dibandingkan yang lainnya.</item>
+        <item>Kazekage Kedua (二代目風影, Nidaime Kazekage). Selama masa pemerintahannya sebagai Kazekage, Shamon fokus terhadap semua upaya pada penguatan kekuatan militer Sunagakure melalui penggunaan boneka sebagai pengganti shinobi. Ia mengambil keuntungan dari sekitar daerah gurun dan pembangunan desa dari ninjutsu baru, dan mengembangkan cara untuk shinobi untuk melawan dengan beberapa cara. Shamon juga meneliti Bijuu dengan maksud mengendalikan Shukaku. Sebagai hasil dari ekspansi militer, Sunagakure mencapai masa kejayaannya</item>
+        <item>Raikage Kelima (五代目雷影, Godaime Raikage). Darui Menjadi Salah satu pengawal Yondaime Raikage dan juga pemimpin divisi pertama Perang Dunia Shinobi sudah bisa dipastikan bahwa kemampuannya tidak diragukan lagi. Salah satu kehebatannya adalah Teknik Kuro Thunder (Petir Hitam) yg dia pelajari dari gurunya Raikage ke 3. Selain itu dia juga menguasai Kekkei Genkai Elemen badai (Ranton).</item>
+        <item>Hokage Keempat (四代目火影, Yondaime Hokage). Minato adalah salah satu shinobi berbakat yang dimiliki oleh konoha. Dengan kemampuan bakat alaminya, minato dapat menciptakan tekniknya sendiri, seperti rasengan, hiraishi dan beberapa teknik segel yang ia pelajari dari istrinya yaitu kushina. Minato diangkat menjadi hokage keempat beberapa saat setelah perang dunia ketiga selesai. Kisah hidup Minato sebagai hokage tidaklah lama karena dia wafat saat mengatasi Kyuubi. Minato berhasil membagi 2 sifat cakra kyubi dengan memisahkan cakra ke dalam tubuh anaknya sendiri yaitu Naruto yang baru saja lahir, dan menyegel cakra yin melalui teknik shiki fujin dengan bantuan shinigami yang mengakibatkan dia wafat.</item>
+        <item>Hokage Kelima (五代目火影, Godaime Hokage). Tsunade adalah kunoichi yang juga merupakan seorang Sannin. Tsunade juga merupakan hokage ke-5, master ninjutsu medis, serta satu-satunya klan Senju yang diketahui masih hidup. Sifatnya suka berjudi dan santai, namun keras dan judes seperti Sakura. Tsunade memiliki asisten yang bernama Shizune yang juga merupakan keponakan dari pacar Tsunade. Tsunade memiliki seekor babi yang bernama Tonton, yang diurus oleh Shizune. Saat menjadi Hokage, Sakura menjadi muridnya untuk belajar ninjutsu medis dan pukulan dahsyat.</item>
     </string-array>
     <integer-array name="data_fotoKage">
         <item>@drawable/hashirama</item>
-        <item>@drawable/ishikawa</item>
-        <item>@drawable/chojuro</item>
-        <item>@drawable/shamon</item>
-        <item>@drawable/a</item>
         <item>@drawable/tobirama</item>
+        <item>@drawable/gengestu</item>
+        <item>@drawable/mu</item>
+        <item>@drawable/a</item>
+        <item>@drawable/rasa</item>
+        <item>@drawable/yagura</item>
+        <item>@drawable/onoki</item>
+        <item>@drawable/garaa</item>
+        <item>@drawable/ishikawa</item>
+        <item>@drawable/chojuro2</item>
+        <item>@drawable/shamon</item>
         <item>@drawable/darui</item>
         <item>@drawable/minato</item>
-        <item>@drawable/gaara</item>
         <item>@drawable/tsunade</item>
     </integer-array>
 </resources>
